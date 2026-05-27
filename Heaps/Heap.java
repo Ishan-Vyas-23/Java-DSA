@@ -62,7 +62,7 @@ public class Heap<T extends Comparable<T>> {
             min = left ;
         }
         if (right < list.size() && list.get(min).compareTo(list.get(right)) > 0){
-            min = left ;
+            min = right ;
         }
 
         if(min != index) {
