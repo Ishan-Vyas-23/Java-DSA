@@ -19,7 +19,6 @@ public class fruitInBasket {
                 left++;
             }
             max = Math.max(i-left+1,max);
-
         }
         return max;
     }
